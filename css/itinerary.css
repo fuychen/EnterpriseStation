@@ -20,6 +20,10 @@
     color: #636365;
     margin: 30px 0 0 20px;
 }
+.header_img{
+    width: 100%;
+    display: block;
+}
 .links-left,.links-right{
     display: inline-block;
     vertical-align: middle;
@@ -52,6 +56,59 @@
         margin-left: 35px;
         font-size: 18px;
     }
+    .itinerary-title,.price-title{
+        font-size: 26px;
+        text-align: center;
+        margin: 50px 0 40px;
+    }
+    .itinerary-title>b,.price-title>b{
+        padding: 0 9% 16px;
+        background: no-repeat url("../images/pz7.png") center bottom/100% auto;
+    }
+    .itinerary,.price,.payment,.refund{
+        max-width: 1180px;
+        margin: 0 auto;
+        color: #575757;
+    }
+    .itinerary-txt,.price-txt,.payment-txt,.refund-txt{
+        font-size: 16px;
+        line-height: 26px;
+        color: #232323;
+    }
+    .itinerary-img{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .price-summary{
+        font-size: 17px;
+        color: #7b7b7b;
+        margin-bottom: 8px;
+    }
+    .price-summary>img{
+        margin-right: 8px;
+        vertical-align: text-top;
+    }
+    .price-txt{
+        padding-left: 10px;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+    .payment-title,.refund-title{
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .payment-title>span,.refund-title>span{
+        padding: 0 6% 16px;
+        background: no-repeat url("../images/pz12.png") center bottom/100% 2px;
+    }
+    .refund-title>span{
+        padding: 0 3% 12px;
+    }
+    .empty{
+        height: 320px;
+    }
     .footer{
         background-color: #333;
         width: 100%;
@@ -70,6 +127,7 @@
         font-size: 14px;
         color: #9f9f9f;
         line-height: 26px;
+        margin-top: 50px;
     }
     .links{
         max-width: 1180px;
@@ -119,6 +177,58 @@
     .nav-menu>a{
         margin-left: 4%;
         font-size: 15px;
+    }
+    .itinerary-title,.price-title{
+        font-size: 26px;
+        text-align: center;
+        margin: 50px 0 40px;
+    }
+    .itinerary-title>b,.price-title>b{
+        padding: 0 9% 16px;
+        background: no-repeat url("../images/pz7.png") center bottom/100% auto;
+    }
+    .itinerary,.price,.payment,.refund{
+        margin: 0 5%;
+        color: #575757;
+    }
+    .itinerary-txt,.price-txt,.payment-txt,.refund-txt{
+        font-size: 16px;
+        line-height: 26px;
+        color: #232323;
+    }
+    .itinerary-img{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .price-summary{
+        font-size: 17px;
+        color: #7b7b7b;
+        margin-bottom: 8px;
+    }
+    .price-summary>img{
+        margin-right: 8px;
+        vertical-align: text-top;
+    }
+    .price-txt{
+        padding-left: 10px;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+    .payment-title,.refund-title{
+        font-size: 22px;
+        font-weight: 300;
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .payment-title>span,.refund-title>span{
+        padding: 0 6% 16px;
+        background: no-repeat url("../images/pz12.png") center bottom/100% 2px;
+    }
+    .refund-title>span{
+        padding: 0 3% 12px;
+    }
+    .empty{
+        height: 200px;
     }
     .footer{
         background-color: #333;
@@ -191,6 +301,58 @@
         text-align: left;
         font-size: 12px;
     }
+    .itinerary-title,.price-title{
+        font-size: 24px;
+        text-align: center;
+        margin: 50px 0 40px;
+    }
+    .itinerary-title>b,.price-title>b{
+        padding: 0 9% 16px;
+        background: no-repeat url("../images/pz7.png") center bottom/100% auto;
+    }
+    .itinerary,.price,.payment,.refund{
+        margin: 0 5%;
+        color: #575757;
+    }
+    .itinerary-txt,.price-txt,.payment-txt,.refund-txt{
+        font-size: 14px;
+        line-height: 26px;
+        color: #232323;
+    }
+    .itinerary-img{
+        width: 100%;
+        margin: 25px 0;
+    }
+    .price-summary{
+        font-size: 15px;
+        color: #7b7b7b;
+        margin-bottom: 8px;
+    }
+    .price-summary>img{
+        margin-right: 8px;
+        vertical-align: text-top;
+    }
+    .price-txt{
+        padding-left: 10px;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+    .payment-title,.refund-title{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin: 50px 0 30px;
+    }
+    .payment-title>span,.refund-title>span{
+        padding: 0 6% 16px;
+        background: no-repeat url("../images/pz12.png") center bottom/100% 2px;
+    }
+    .refund-title>span{
+        padding: 0 3% 12px;
+    }
+    .empty{
+        height: 150px;
+    }
     .footer{
         background-color: #333;
         width: 100%;
@@ -241,7 +403,108 @@
         width: 40px;
         margin: 6px 0 8px -20px;
     }
+    .itinerary-title,.price-title{
+        font-size: 23px;
+        text-align: center;
+        margin: 30px 0 35px;
+    }
+    .itinerary-title>b,.price-title>b{
+        padding: 0 9% 16px;
+        background: no-repeat url("../images/pz7.png") center bottom/100% auto;
+    }
+    .itinerary,.price,.payment,.refund{
+        margin: 0 5%;
+        color: #575757;
+    }
+    .itinerary-txt,.price-txt,.payment-txt,.refund-txt{
+        font-size: 14px;
+        line-height: 24px;
+        color: #232323;
+    }
+    .itinerary-img{
+        width: 100%;
+        margin: 15px 0;
+    }
+    .price-summary{
+        font-size: 15px;
+        color: #7b7b7b;
+        margin-bottom: 8px;
+    }
+    .price-summary>img{
+        margin-right: 8px;
+        vertical-align: text-top;
+    }
+    .price-txt{
+        padding-left: 10px;
+        margin-top: 12px;
+        margin-bottom: 13px;
+    }
+    .payment-title,.refund-title{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin: 30px 0 30px;
+    }
+    .payment-title>span,.refund-title>span{
+        padding: 0 6% 16px;
+        background: no-repeat url("../images/pz12.png") center bottom/100% 2px;
+    }
+    .refund-title>span{
+        padding: 0 3% 12px;
+    }
+    .empty{
+        height: 120px;
+    }
 }
 @media only screen and (max-width: 360px){
-
+    .itinerary-title,.price-title{
+        font-size: 18px;
+        text-align: center;
+        margin: 25px 0 28px;
+    }
+    .itinerary-title>b,.price-title>b{
+        padding: 0 9% 16px;
+        background: no-repeat url("../images/pz7.png") center bottom/100% auto;
+    }
+    .itinerary-txt,.price-txt,.payment-txt,.refund-txt{
+        font-size: 13px;
+        line-height: 24px;
+        color: #232323;
+    }
+    .itinerary-img{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .price-summary{
+        font-size: 14px;
+        color: #7b7b7b;
+        margin-bottom: 5px;
+    }
+    .price-summary>img{
+        margin-right: 8px;
+        width: 16px;
+        vertical-align: middle;
+        margin-bottom: 3px;
+    }
+    .price-txt{
+        padding-left: 10px;
+        margin-top: 6px;
+        margin-bottom: 8px;
+    }
+    .payment-title,.refund-title{
+        font-size: 20px;
+        font-weight: 300;
+        text-align: center;
+        margin: 30px 0 30px;
+    }
+    .payment-title>span,.refund-title>span{
+        padding: 0 6% 16px;
+        background: no-repeat url("../images/pz12.png") center bottom/100% 2px;
+    }
+    .refund-title>span{
+        padding: 0 3% 12px;
+    }
+    .empty{
+        height: 80px;
+    }
 }
