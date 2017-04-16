@@ -11,107 +11,274 @@
     <meta name="renderer" content="webkit|ie-comp|ie-stand">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/style1.css" />
+    <script>document.documentElement.className = 'js';</script>
 </head>
 <body>
     <div class="nav">
         <div class="brand">
-            <a href="#" class="logo"><img src="images/logo1.png" alt="logo"></a>
+            <a href="#" class="logo">
+                <img src="images/logo.png" alt="logo">
+            </a>
+            <div style="height: 100px;width:30%;float: left;">
+                <div class="brand-content" style="height: 43%;width: 100%;float: left;padding-top: 22px;
+    padding-left: 30px;letter-spacing: 2px;text-align:left;">
+                    北京平仄文化教育咨询有限公司
+                </div>
+                <div style="height: 50%;width: auto;width:85%;float: left;
+    padding-left: 30px;padding-left: 30px;line-height: 18px;text-align: left;">
+                    Beijing PZ Interculture Communication and Consulting Co,. Ltd.
+                </div>
+            </div>
+            
             <div class="nav-menu">
-                <a href="#" class="current_page">Home</a>
-                <a href="#">Program</a>
-                <a href="#">About Us</a>
-                <a href="#">Contact Us</a>
-                <a href="#">Apply</a>
+                <ul class="venus-menu">
+                    <li class="venus-menu-li">
+                        <a class="venus-menu-li-a current_page">Home</a>
+                    </li>
+                    <li class="venus-menu-li banner_menu">
+                        <a class="venus-menu-li-a banner_menu_a" href="#">Program</a>
+                        <ul class="menu_div">
+                            <li class="menu_div_li"><a class="menu_div_li_a" href="">Overview</a></li>
+                            <li class="menu_div_li"><a class="menu_div_li_a" href="">Itinerary&Prices</a></li>
+                            <li class="menu_div_li"><a class="menu_div_li_a" href="">Safety</a></li>
+                            <li class="menu_div_li"><a class="menu_div_li_a" href="">Why us</a></li>
+                            <li class="menu_div_li"><a class="menu_div_li_a" href="">FAQS</a></li>
+                        </ul>
+                    </li>
+                    <li class="venus-menu-li">
+                        <a class="venus-menu-li-a" href="#">About Us</a>
+                    </li>
+                    <li class="venus-menu-li">
+                        <a class="venus-menu-li-a" href="#">Contact Us</a>
+                    </li>
+                    <li class="venus-menu-li">
+                        <a class="venus-menu-li-a" href="#">Apply</a>
+                    </li>
+                </ul>
+                
             </div>
         </div>
     </div>
-    <div class="header">
-        <div class="carousel">
-            <div class="carousel-txt">
-                To See The Place
-                <div>
-                    久在樊笼里<br>复得返自然
+    <div class="header" id="box">
+        <div class="slider-container">
+            <ul class="slider-pagi">
+            </ul>
+            <div class="slider">
+                <div class="slide carousel slide-0 active" style="text-align: center;">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <div class="slide__text">
+                            <div class="slide__text-desc">
+                                <a style="font-weight: 100;">To See The</a> 
+                                <a style="font-weight:700">Place</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide carousel slide-1 ">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <div class="slide__text">
+                            <div class="slide__text-desc">
+                                To learn the 
+                                <a style="font-weight:700">language</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide  carousel slide-2">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <div class="slide__text">
+                            <div class="slide__text-desc">
+                                To feel the 
+                                <a style="font-weight:700">culture</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide carousel slide-3">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <div class="slide__text">
+                            <div class="slide__text-desc">
+                                To make 
+                                <a style="font-weight:700">friends</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide carousel slide-4">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <div class="slide__text">
+                            <div class="slide__text-desc">
+                                Most importantly, to taste the 
+                                <a style="font-weight:700">food</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <!--一个轮播图图片-->
-        <div class="carousel-dot">
-            <span class="current-dot"></span><span></span><span></span>
-        </div>
     </div>
+    
     <div class="main">
-        <div class="brand-title">Brand Story</div>
-        <div class="brand-txt">
-            China,<br>
-            a magic word,<br>
-            It refers to a big country, a historic civilization, and also a kind of porcelain. <br>
-            When it comes to China, what is your first impression?
-        </div>
-        <div class="brand-txt">
-            Huge crowds of people?<br>
-            Unrecognizable Chinese characters?<br>
-            Profound cultural history?<br>
-            <br>
-            Or<br>
-            The delicious Chinese food?
-        </div>
-        <div class="brand-txt">
-            You must have heard of them, but you may never have seen them in person.<br>
-            What if you have the chance to_<br>
-            truly enjoy the traditional Chinese food,<br>
-            have Chinese culture courses to enhance understanding of all the historical sites,<br>
-            to DIY crafts and local food<br>
-            …<br>
-            Will you come
-        </div>
-        <div class="brand-txt">
-            “Teen Adventure – A Bite of Beijing” summer study tour.<br>
-             <br>
-            The first food-themed summer study tour which offers you the chance to truly enjoy the traditional Chinese food.<br>
-            <br>
-            The creative integration of Chinese culture courses with tours enhances your understanding of all the historical sites.
+        <div>More than study, Beyond tour</div>
+    </div>
+    <!--slogan-->
+    <div class="promotional-box">
+        <div class="promotional">
+            <div class="promotional-left">
+                <div class="promotional-txt">
+                    <div class="inner-box">
+                        <div class="inner-icon">
+                            <span class="inner-span">1</span>
+                        </div>
+                        <div class="inner-text">
+                            The Love Boat promises something for every the beat of very best to make the others comfortable.
+                        </div>
+                    </div>
+                </div>
+                <div class="promotional-txt">
+                    <div class="inner-box">
+                        <div class="inner-icon">
+                            <span class="inner-span">2</span>
+                        </div>
+                        <div class="inner-text">
+                            The Love Boat promises something for every the beat of very best to make the others comfortable.
+                        </div>
+                    </div>
+                </div>
+                <div class="promotional-txt">
+                    <div class="inner-box">
+                        <div class="inner-icon">
+                            <span class="inner-span">3</span>
+                        </div>
+                        <div class="inner-text">
+                            The Love Boat promises something for every the beat of very best to make the others comfortable.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="promotional-right">
+                <img src="images/pz4.png" style="width: 100%;display: inline-block;float: right;">
+            </div>
         </div>
     </div>
-    <!--品牌故事-->
-    <div class="service">
-        <div class="service-img">
-            <img src="images/pz1.png" alt="">
+    
+    <!--宣传视频-->
+
+    <div class="highlight">
+        <div class="brand-title" style="color: red">
+            Program Highlights
         </div>
-        <div class="service-txt">
-            <div class="service-title">Program Highlights</div>
-            <div class="service-list">1.</div>
-            <div class="service-list-txt">The first food-themed summer study tour offers you the chance to truly enjoy the traditional Chinese food.</div>
-            <img src="images/pz2.jpg" alt="">
-            <img src="images/pz3.png" alt="">
+        <div class="highlight-box">
+            <div class="highlight-div">
+                <div class="highlight-left">
+                    <ul>
+                        <li class="li-box" id="li1">The one&only food-themed study tour</li>
+                        <li class="li-box" id="li2">Hands on activities</li>
+                        <li class="li-box" id="li3">In-depth exploration of historic sites</li>
+                        <li class="li-box" id="li4">The one&only food-themed study tour</li>
+                        <li class="li-box li-box-last" id="li5">Conducive learning environment </li>
+                    </ul>
+                </div>
+                <div class="highlight-right">
+                    <div class="highlight-pt-box">
+                        <div class="highlight-pic">
+                            <div class="highlight_pic1 pic_active"></div>
+                            <div class="highlight_pic2"></div>
+                            <div class="highlight_pic3"></div>
+                            <div class="highlight_pic4"></div>
+                            <div class="highlight_pic5"></div>
+                        </div>
+                        <div class="highlight-text">
+                            <div class="highlight_text1 text_active">
+                                The first food-themed summer study tour offers you the chance to truly enjoy the traditional Chinese food.
+                            </div>
+                            <div class="highlight_text2">
+                                With various kinds of workshops, you are allowed to make something either to eat or to play as long as it interests you.
+                            </div>
+                            <div class="highlight_text3">
+                                This program also integrates Chinese culture courses with tours to make sure that everything taught at class enhances students’ understanding of the cultural background of all the historic sites.
+                            </div>
+                            <div class="highlight_text4">
+                                Extracurricular activities such as Chinese calligraphy and paper-cutting classes will give you a preliminary understanding of Eastern aesthetics.
+                            </div>
+                            <div class="highlight_text5">
+                                All teachers are well trained and highly experienced with teaching skills, and the ratio of teachers and students can be 1 to4.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
     <!--项目亮点-->
-    <div class="promotional">
-        <img src="images/pz4.png" alt="">
-        <div class="promotional-txt">Make BeiJing the first stop of your<br>TRAVELLING AROUND THE WORLD dream</div>
-    </div>
-    <!--宣传视频-->
-    <div class="summary">
-        <div class="summary-img">
-            <div class="summary-img-1 summary-img3 mr1"></div><div class="summary-img-2 summary-img2 mr1"></div><div class="summary-img-3 summary-img1"></div><div class="summary-img-4 summary-img2 ml1"></div><div class="summary-img-5 summary-img3 ml1"></div>
+    <div class="service-top">
+        <div id="wrap">
+            <h1 class="wrap_h1">Why choose CHINESE summer study tour？</h1>
+            <ul class="item1">
+                <li>
+                    <img src="images/b1.jpg"/>
+                    <div>
+                        <h3 class="item_title">The one&only food-themed study tour</h3>
+                        <p>The first food-themed summer study tour offers you the chance to truly enjoy the traditional Chinese food.
+                        </p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/b2.jpg"/>
+                    <div>
+                        <h3 class="item_title">Hands on activities</h3>
+                        <p>With various kinds of workshops, you are allowed to make something either to eat or to play as long as it interests you.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/b3.jpg"/>
+                    <div>
+                        <h3 class="item_title">In-depth exploration of historic sites</h3>
+                        <p>This program also integrates Chinese culture courses with tours to make sure that everything taught at class enhances students’ understanding of the cultural background of all the historic sites.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="images/b4.jpg"/>
+                    <div>
+                        <h3 class="item_title">Oriental aesthetic impression</h3>
+                        <p>Extracurricular activities such as Chinese calligraphy and paper-cutting classes will give you a preliminary understanding of Eastern aesthetics.</p>
+                    </div>
+                </li>
+            </ul>
         </div>
-        <div class="summary-txt">A precious opportunity to see a civilization with over 5,000 years of history</div>
     </div>
-    <!--好处-->
+
     <div class="footer">
         <div class="footer-intro">
-            <a href="#" class="footer-logo"><img src="images/logo2.jpg" alt=""></a>
+            <a href="#" class="footer-logo"><img src="images/color-en-no.png" alt=""></a>
             <div class="footer-txt">Our study tour highlights the topic of Chinese traditional food, and integrates intensive Chinese language and culture courses with extracurricular activities to make sure that hands-on language learning and cultural exchange can be put into practice by students.</div>
         </div>
         <div class="links">
             <div class="links-txt links-left">友情链接<br>或者合作院校</div>
+           <!-- <a href="#" class="links-left"><img src="images/link1.png" alt=""></a> 
             <a href="#" class="links-left"><img src="images/link1.png" alt=""></a>
-            <a href="#" class="links-left"><img src="images/link1.png" alt=""></a>
-            <a href="#" class="links-left"><img src="images/link1.png" alt=""></a>
+            <a href="#" class="links-left"><img src="images/link1.png" alt=""></a> -->
             <div class="links-right">Ghost pyongtaek culture media co.,LTD has the right to explain this</div>
         </div>
     </div>
     <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="js/lunbo.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/picMove.js"></script>
+    <script src="js/charming.min.js"></script> 
+    <script src="js/anime.min.js"></script>
+    <script src="js/textfx.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/highlights.js"></script>
+    <script src="js/banner.js"></script>
 </body>
 </html>
