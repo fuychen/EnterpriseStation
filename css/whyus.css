@@ -1,0 +1,482 @@
+/*.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.85);
+    z-index: 1;
+}
+.brand a{
+    color: #4e4e4c;
+}
+.brand .current_page{
+    color: #fc6552;
+}
+.logo>img{
+    vertical-align: top;
+}
+.company{
+    display: inline-block;
+    color: #636365;
+    margin: 30px 0 0 20px;
+}*/
+
+.header_img{
+    width: 100%;
+    display: block;
+}
+@media only screen and (min-width: 1024px){
+    /*.brand{
+        max-width: 1024px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .nav-menu{
+        height: 120px;
+        line-height: 120px;
+    }
+    .logo>img{
+        height: 100px;
+        margin: 10px 0;
+    }
+    .logo{
+        float: left;
+    }
+    .nav-menu{
+        float: right;
+        margin-right: 20px;
+    }
+    .nav-menu>a{
+        margin-left: 35px;
+        font-size: 18px;
+    }*/
+    .header-whyus{
+        max-height: 600px;
+        overflow: hidden;
+    }
+    .whyus-title{
+        font-size: 32px;
+        text-align: center;
+        margin: 30px 0 0 0;
+        color: #606060;
+    }
+    .whyus-img{
+        margin: 20px 0 30px;
+    }
+    .whyus-summary{
+        width: 440px;
+        font-size: 22px;
+        color: #5c5c5c;
+        text-align: center;
+        margin: 40px auto 10px;
+        padding-top: 22px;
+        border-top: 1px solid #ddd;
+    }
+    .whyus-summary>legend{
+        background: #fff;
+        padding: 0 10px;
+    }
+    .whyus-datail{
+        position: relative;
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .whyus-one{
+        width: 100%;
+    }
+    .whyus-one-w{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transition: all .6s ease-in-out;
+                transition: all .6s ease-in-out;
+    }
+    .whyus-one-t{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 7%;
+        width: 86%;
+        font-size: 22px;
+        line-height: 40px;
+        color: #fff;
+        z-index: 1;
+        margin-top: -40px;
+        -webkit-transition: all .6s ease-in-out;
+                transition: all .6s ease-in-out;
+    }
+    .a{
+        background-color: rgba(0,150,68,0.5);
+    }
+    .b{
+        background-color: rgba(249,201,94,0.5);
+    }
+    .c{
+        background-color: rgba(255,0,0,0.5);
+
+    }
+    .whyus-one-v{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        -webkit-transition: all .6s ease-in-out;
+                transition: all .6s ease-in-out;
+    }
+    .whyus-one-vt{
+        text-align: center;
+        position: absolute;
+        bottom: 5px;
+        left: 5%;
+        width: 90%;
+        font-size: 22px;
+        line-height: 30px;
+        color: #fff;
+        z-index: 1;
+        -webkit-transition: all .6s ease-in-out;
+                transition: all .6s ease-in-out;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 1024px){
+/*    .brand{
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav-menu{
+        height: 100px;
+        line-height: 100px;
+    }
+    .logo>img{
+        height: 80px;
+        margin: 10px 0 10px 20px;
+    }
+    .logo{
+        float: left;
+    }
+    .company{
+        font-size: 12px;
+    }
+    .nav-menu{
+        float: right;
+        margin-right: 20px;
+        min-width: 390px;
+    }
+    .nav-menu>a{
+        margin-left: 4%;
+        font-size: 15px;
+    }*/
+    .whyus-title{
+        font-size: 30px;
+        text-align: center;
+        margin: 30px 0 0 0;
+        color: #606060;
+    }
+    .whyus-img{
+        margin: 20px 0 30px;
+        width: 300px;
+    }
+    .whyus-summary{
+        width: 350px;
+        font-size: 20px;
+        color: #5c5c5c;
+        text-align: center;
+        margin: 30px auto 10px;
+        padding-top: 22px;
+        border-top: 1px solid #ddd;
+    }
+    .whyus-summary>legend{
+        background: #fff;
+        padding: 0 10px;
+    }
+    .whyus-datail{
+        position: relative;
+        width: 90%;
+        margin: 10px auto;
+    }
+    .whyus-one{
+        width: 100%;
+    }
+    .whyus-one-w{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-t{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 5%;
+        width: 90%;
+        font-size: 20px;
+        line-height: 36px;
+        color: #fff;
+        z-index: 1;
+        margin-top: -36px;
+    }
+    .a{
+        background-color: rgba(0,150,68,0.5);
+    }
+    .b{
+        background-color: rgba(255,240,0,0.5);
+    }
+    .whyus-one-v{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100px;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-vt{
+        text-align: center;
+        position: absolute;
+        bottom: 5px;
+        left: 3%;
+        width: 94%;
+        font-size: 18px;
+        line-height: 30px;
+        color: #fff;
+        z-index: 1;
+    }
+    .footer{
+        margin-top: 80px;
+    }
+}
+@media only screen and (max-width: 767px){
+    /*.brand{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .logo>img{
+        width: 50px;
+        height: auto;
+    }
+    .nav-menu{
+        min-width: 50px;
+        min-height: 50px;
+        margin-right: 10px;
+        background: url("../images/pz5.png") no-repeat right top;
+        text-align: right;
+        position: absolute;
+        top: 24px;
+        right: 6px;
+    }
+    .nav-menu>a{
+        font-size: 16px;
+        line-height: 30px;
+        display: none;
+    }
+    .company{
+        margin: 10px 0 0 20px;
+        text-align: left;
+        font-size: 12px;
+    }*/
+    .whyus-title{
+        font-size: 24px;
+        text-align: center;
+        margin: 30px 0 0 0;
+        color: #606060;
+    }
+    .whyus-img{
+        margin: 15px 0 20px;
+        width: 200px;
+    }
+    .whyus-summary{
+        width: 220px;
+        font-size: 16px;
+        color: #5c5c5c;
+        text-align: center;
+        margin: 20px auto 0;
+        padding-top: 22px;
+        border-top: 1px solid #ddd;
+    }
+    .whyus-summary>legend{
+        background: #fff;
+        padding: 0 4px;
+    }
+    .whyus-datail{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .whyus-one{
+        width: 100%;
+    }
+    .whyus-one-w{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-t{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        width: 98%;
+        font-size: 14px;
+        line-height: 26px;
+        color: #fff;
+        z-index: 1;
+        margin-top: -42px;
+    }
+    .a{
+        background-color: rgba(0,150,68,0.5);
+    }
+    .b{
+        background-color: rgba(255,240,0,0.5);
+    }
+    .whyus-one-v{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 76px;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-vt{
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+        left: 1%;
+        width: 98%;
+        font-size: 12px;
+        line-height: 18px;
+        color: #fff;
+        z-index: 1;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .links-left{
+        width: 20%;
+        font-size: 10px;
+        line-height: 20px;
+    }
+}
+@media only screen and (max-width: 375px){
+    /*.company{
+        display: none;
+    }
+    .nav-menu{
+        top: 17px;
+    }
+    .logo>img{
+        width: 40px;
+        margin: 6px 0 8px -20px;
+    }*/
+    .whyus-title{
+        font-size: 22px;
+        text-align: center;
+        margin: 26px 0 0 0;
+        color: #606060;
+    }
+    .whyus-img{
+        margin: 10px 0 18px;
+        width: 180px;
+    }
+    .whyus-summary{
+        width: 200px;
+        font-size: 14px;
+        color: #5c5c5c;
+        text-align: center;
+        margin: 16px auto 0;
+        padding-top: 16px;
+        border-top: 1px solid #ddd;
+    }
+    .whyus-summary>legend{
+        background: #fff;
+        padding: 0 4px;
+    }
+    .whyus-datail{
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .whyus-one{
+        width: 100%;
+    }
+    .whyus-one-w{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-t{
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 1%;
+        width: 98%;
+        font-size: 12px;
+        line-height: 24px;
+        color: #fff;
+        z-index: 1;
+        margin-top: -36px;
+    }
+    .a{
+        background-color: rgba(0,150,68,0.5);
+    }
+    .b{
+        background-color: rgba(255,240,0,0.5);
+    }
+    .whyus-one-v{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 68px;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-vt{
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+        left: 1%;
+        width: 98%;
+        font-size: 12px;
+        line-height: 16px;
+        color: #fff;
+        z-index: 1;
+    }
+    .footer{
+        margin-top: 40px;
+    }
+}
+@media only screen and (max-width: 337px){
+    .whyus-one-v{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 74px;
+        background-color: rgba(255,0,0,0.5);
+    }
+    .whyus-one-vt{
+        text-align: center;
+        position: absolute;
+        bottom: 4px;
+        left: 0;
+        width: 100%;
+        font-size: 10px;
+        line-height: 14px;
+        color: #fff;
+        z-index: 1;
+    }
+}

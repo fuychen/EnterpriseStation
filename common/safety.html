@@ -1,0 +1,89 @@
+<!doctype html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="js/html5.js"></script>
+    <![endif]-->
+    <title>pz</title>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="css/foundation.css"/>
+    <link rel="stylesheet" href="css/head-new.css"/>
+    <link rel="stylesheet" href="css/footer-new.css">
+    <link rel="stylesheet" href="css/safety.css">
+    <script type="text/javascript" src="js/materialmenu.jquery.js"></script>
+    <script>
+        $(function () {
+            $('.accordion > .pane > .content').hide();
+            $('.accordion > .pane:first-child > .content').show();
+            $('.accordion > .pane > .title').click(function () {
+                $('.accordion > .pane > .content').slideUp(250);
+                $(this).parent().find('> .content').slideDown(250);
+            });
+        });
+    </script>
+</head>
+<body>
+<div id="header">
+    <div class="row">
+        <div class="five columns">
+            <a href="#" class="logo">
+                <img src="images/logo3.png" alt="logo">
+                <div  class="pz-name">北京平仄文化教育咨询有限公司<br>Beijing PZ Interculture Communication<br>and Consulting Co,.Ltd.</div>
+            </a>
+            <div class="material-menu-button"><img src="images/pz5.png" alt=""></div>
+        </div>
+        <div class="seven columns material-menu">
+            <nav class="top-bar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li class="has-dropdown"><a href="#">Program</a>
+                        <ul class="dropdown">
+                            <li><a href="#">Overview</a></li>
+                            <li><a href="#">Itinerary&Prices</a></li>
+                            <li><a href="#">Why us</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">About us</a> </li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Apply</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</div>
+<script>
+    $('.material-menu nav > ul').materialmenu();
+</script>
+<!--head-->
+<div class="header-bigimg">
+    <img src="images/img1.jpg" alt="">
+</div>
+<!--head-img-->
+
+
+
+
+
+<!---->
+<div class="footer">
+    <div class="footer-intro">
+        <a href="#" class="footer-logo"><img src="images/logo2.png" alt=""></a>
+        <div class="footer-txt">Our study tour highlights the topic of Chinese traditional food, and integrates intensive Chinese language and culture courses with extracurricular activities to make sure that hands-on language learning and cultural exchange can be put into practice by students.</div>
+    </div>
+    <div class="links">
+        <div class="links-left">友情链接<br>或者合作院校</div>
+        <div class="links-right">Ghost pyongtaek culture media co.,LTD has the right to explain this</div>
+    </div>
+</div>
+<!--footer-->
+</body>
+</html>

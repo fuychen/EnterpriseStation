@@ -1,0 +1,245 @@
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.85);
+    z-index: 2;
+}
+.brand a{
+    color: #4e4e4c;
+}
+.brand .current_page{
+    color: #fc6552;
+}
+.logo>img{
+    vertical-align: top;
+}
+.company{
+    display: inline-block;
+    color: #636365;
+    margin: 30px 0 0 20px;
+}
+.links-left,.links-right{
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer-logo>img{
+    vertical-align: top;
+}
+@media only screen and (min-width: 1024px){
+    .brand{
+        max-width: 1180px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    .nav-menu{
+        height: 120px;
+        line-height: 120px;
+    }
+    .logo>img{
+        height: 100px;
+        margin: 10px 0;
+    }
+    .logo{
+        float: left;
+    }
+    .nav-menu{
+        float: right;
+        margin-right: 20px;
+    }
+    .nav-menu>a{
+        margin-left: 35px;
+        font-size: 18px;
+    }
+    .footer{
+        background-color: #333;
+        width: 100%;
+        padding-bottom: 80px;
+    }
+    .footer-intro{
+        max-width: 1180px;
+        margin: 0 auto;
+    }
+    .footer-logo>img{
+        height: 180px;
+    }
+    .footer-txt{
+        display: inline-block;
+        max-width: 765px;
+        font-size: 14px;
+        color: #9f9f9f;
+        line-height: 26px;
+        margin-top: 50px;
+    }
+    .links{
+        max-width: 1180px;
+        margin: 0 auto;
+        height: 88px;
+        border-top: 2px solid #999;
+        border-bottom: 2px solid #999;
+    }
+    .links-right{
+        font-size: 14px;
+        color: #9f9f9f;
+        margin-top: 30px;
+    }
+    .links-left{
+        color: #9f9f9f;
+        font-size: 14px;
+        margin-left: 46px;
+        margin-top: 26px;
+        text-align: center;
+        line-height: 24px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 1024px){
+    .brand{
+        width: 100%;
+        overflow: hidden;
+    }
+    .nav-menu{
+        height: 100px;
+        line-height: 100px;
+    }
+    .logo>img{
+        height: 80px;
+        margin: 10px 0 10px 20px;
+    }
+    .logo{
+        float: left;
+    }
+    .company{
+        font-size: 12px;
+    }
+    .nav-menu{
+        float: right;
+        margin-right: 20px;
+        min-width: 390px;
+    }
+    .nav-menu>a{
+        margin-left: 4%;
+        font-size: 15px;
+    }
+    .footer{
+        background-color: #333;
+        width: 100%;
+        padding-bottom: 60px;
+    }
+    .footer-intro{
+        width: 100%;
+    }
+    .footer-logo>img{
+        width: 20%;
+        height: auto;
+    }
+    .footer-txt{
+        display: inline-block;
+        width: 60%;
+        /*margin-right: 10%;*/
+        font-size: 14px;
+        color: #9f9f9f;
+        line-height: 26px;
+        margin-top: 30px;
+    }
+    .links{
+        width: 100%;
+        height: 88px;
+        border-top: 2px solid #999;
+        border-bottom: 2px solid #999;
+    }
+    .links-right{
+        font-size: 14px;
+        color: #9f9f9f;
+        margin-top: 26px;
+    }
+    .links-left{
+        color: #9f9f9f;
+        font-size: 12px;
+        width: 20%;
+        margin-top: 22px;
+        text-align: center;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .brand{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .logo>img{
+        width: 50px;
+        height: auto;
+    }
+    .nav-menu{
+        min-width: 50px;
+        min-height: 50px;
+        margin-right: 10px;
+        background: url("../images/pz5.png") no-repeat right top;
+        text-align: right;
+        position: absolute;
+        top: 24px;
+        right: 6px;
+    }
+    .nav-menu>a{
+        font-size: 16px;
+        line-height: 30px;
+        display: none;
+    }
+    .company{
+        margin: 10px 0 0 20px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .footer{
+        background-color: #333;
+        width: 100%;
+        padding-bottom: 36px;
+    }
+    .footer-intro{
+        width: 100%;
+    }
+    .footer-logo>img{
+        width: 20%;
+    }
+    .footer-txt{
+        display: inline-block;
+        width: 76%;
+        font-size: 12px;
+        color: #9f9f9f;
+        line-height: 20px;
+        margin-top: 3%;
+    }
+    .links{
+        width: 100%;
+        overflow: hidden;
+        border-top: 2px solid #999;
+        border-bottom: 2px solid #999;
+    }
+    .links-right{
+        font-size: 12px;
+        color: #9f9f9f;
+        max-width: 70%;
+    }
+    .links-left{
+        color: #9f9f9f;
+        font-size: 12px;
+        width: 25%;
+        margin: 14px 0;
+        text-align: center;
+        line-height: 24px;
+    }
+}
+@media only screen and (max-width: 414px){
+    .company{
+        display: none;
+    }
+    .nav-menu{
+        top: 17px;
+    }
+    .logo>img{
+        width: 40px;
+        margin: 6px 0 8px -20px;
+    }
+}
