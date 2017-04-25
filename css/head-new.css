@@ -120,11 +120,30 @@ body {
         margin-top: 25px;
         color: #74777b;
         font-size: 19px;
-        font-weight: 300;
+        font-weight: 400;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        transition: 0.6s;
     }
-    .dropdown > li > a {
-        font-size: 14px;
-        color: #4e4e4c;
+    .top-bar >div>ul > li.has-dropdown > a{
+        height: auto;
+        padding-bottom: 30px;
+    }
+    .top-bar >div>ul > li.has-dropdown>.dropdown{
+        height: auto;
+    }
+    .top-bar ul > li.has-dropdown .dropdown{
+        background-color: rgba(255,255,255,0.9);
+        padding: 15px 0;
+    }
+    .top-bar ul > li.has-dropdown .dropdown>li>a{
+        line-height: 26px;
+        -webkit-transition: 0.6s;
+        -moz-transition: 0.6s;
+        transition: 0.6s;
+    }
+    .material-menu-wrapper > ul > li > a:hover,.top-bar ul > li.has-dropdown .dropdown>li>a:hover{
+        color: #fc6552;
     }
 }
 @media only screen and (max-width: 1023px) {

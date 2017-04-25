@@ -1,0 +1,110 @@
+.header-bigimg>img{
+    width: 100%;
+    display: block;
+}
+.aboutus-title{
+    color: #028388;
+    text-align: center;
+}
+.aboutus-tit2,.aboutus-tit3{
+    color: #5c5c5c;
+    text-align: center;
+    display: block;
+    border-top: 2px solid #e1e1e1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.aboutus-tit2>legend,.aboutus-tit3>legend{
+    padding: 0 15px;
+}
+.aboutus-txt1{
+    color: #2d2d2d;
+}
+.aboutus-one-tit1,.aboutus-two-tit1{
+    color: #3c3c3c;
+}
+.aboutus-one-tit2,.aboutus-two-tit2{
+    color: #6c6c6c;
+}
+.aboutus-one-txt1,.aboutus-two-txt1{
+    color: #2f2f2f;
+}
+@media only screen and (min-width: 1024px) {
+    .header-bigimg{
+        height: 600px;
+        overflow: hidden;
+    }
+    .aboutus-title{
+        font-size: 46px;
+        margin: 25px 0 80px;
+    }
+    .aboutus-main{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .aboutus-tit2,.aboutus-tit3{
+        font-size: 24px;
+        font-weight: 400;
+        width: 50%;
+        margin: 60px auto;
+    }
+    .aboutus-tit3{
+        margin: 70px auto 40px;
+    }
+    .aboutus-txt1{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .aboutus-txt>.aboutus-txt1:last-child{
+        margin-bottom: 0;
+    }
+    .aboutus-one,.aboutus-two{
+        border: 1px solid #ddd;
+        padding: 18px 18px 26px;
+        overflow: hidden;
+    }
+    .aboutus-one-img{
+        float: left;
+        margin-right: 20px;
+        width: 22%;
+    }
+    .aboutus-two-img{
+        float: right;
+        margin-left: 20px;
+        width: 22%;
+    }
+    .aboutus-one-txt{
+        float: left;
+        width: 73%;
+        width: calc( 78% - 22px);
+    }
+    .aboutus-two-txt{
+        float: right;
+        width: 73%;
+        width: calc( 78% - 22px);
+    }
+    .aboutus-one-tit1,.aboutus-two-tit1{
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .aboutus-one-tit2,.aboutus-two-tit2{
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .aboutus-one-txt1,.aboutus-two-txt1{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .aboutus-two-tit1,.aboutus-two-tit2{
+        text-align: right;
+    }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+
+}
+@media only screen and (max-width: 767px) {
+
+}

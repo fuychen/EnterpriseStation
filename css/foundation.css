@@ -281,7 +281,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 .top-bar > ul .name h1 a { font-weight: bold; padding: 0 22.5px; font-size: 17px !important; }
 .top-bar > ul .name img { margin-top: -5px; vertical-align: middle; }
 .top-bar.expanded { height: inherit; }
-.top-bar ul { margin-left: 0; display: inline; height: 45px; line-height: 45px; list-style: none; padding: 0 !important; margin: 0 !important; /* Main Navigation links style */ /* Left Side <ul> */ /* Right Side <ul> */ }
+.top-bar ul { margin-left: 0; display: inline; height: 45px; line-height: 45px; list-style: none; padding: 0; margin: 0 !important; /* Main Navigation links style */ /* Left Side <ul> */ /* Right Side <ul> */ }
 .top-bar ul > li { float: left; background-image: none; padding: 0 !important; margin: 0 !important; /* Dividers between navigation */ /* Put a button in an <li> but give is a class */ /* Put a search bar or text input in the bar */ /* Put login bar in the top bar */ /* Hide the triangle for breakpoint menu */ /* li.has-dropdown */ }
 .top-bar ul > li a { color: #74777b; display: block; font-size: 13px; font-weight: normal; height: 45px; line-height: 45px; padding: 0 15px; }
 .top-bar ul > li > a:hover, .top-bar ul > li.active > a, .top-bar ul > li > a:focus { color: #74777b; }
@@ -307,7 +307,7 @@ input[type=submit].button, button.button { -webkit-appearance: none; }
 .top-bar ul > li.has-dropdown:hover > .dropdown, .top-bar ul > li.has-dropdown:focus > .dropdown { display: block; display: block; }
 .top-bar ul > li.has-dropdown > a {  }
 .top-bar ul > li.has-dropdown > a:after { content: ""; display: none; width: 0; height: 0; border: solid 5px; border-color: white transparent transparent transparent; margin-right: 15px; margin-top: -2.5px; position: absolute; right: 0; top: 50%; }
-.top-bar ul > li.has-dropdown .dropdown { background: transparent; left: 0; margin: 0; padding: 9px 0 0 0 !important; position: absolute; display: none; z-index: 99; }
+.top-bar ul > li.has-dropdown .dropdown { background: transparent; left: 0; margin: 0; padding: 9px 0 0 0 ; position: absolute; display: none; z-index: 99; }
 .top-bar ul > li.has-dropdown .dropdown li { background: transparent; background-image: none; line-height: 1; min-width: 100%; padding: 0; margin: 0; padding-bottom: 5px !important; }
 .top-bar ul > li.has-dropdown .dropdown li > a { color: #4e4e4c; font-weight: normal; height: 100%; line-height: 1; padding: 5px 17px 5px 15px; white-space: nowrap; }
 .top-bar ul > li.has-dropdown .dropdown li > a:after { border: none; }
