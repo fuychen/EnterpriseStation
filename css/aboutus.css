@@ -1,0 +1,312 @@
+.header-bigimg>img{
+    width: 100%;
+    display: block;
+}
+.aboutus-title{
+    color: #028388;
+    text-align: center;
+}
+.aboutus-tit2,.aboutus-tit3{
+    color: #5c5c5c;
+    text-align: center;
+    display: block;
+    border-top: 2px solid #e1e1e1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+.aboutus-txt1{
+    color: #2d2d2d;
+}
+.aboutus-one-tit1,.aboutus-two-tit1{
+    color: #3c3c3c;
+}
+.aboutus-one-tit2,.aboutus-two-tit2{
+    color: #6c6c6c;
+}
+.aboutus-one-txt1,.aboutus-two-txt1{
+    color: #2f2f2f;
+}
+.aboutus-line{
+    text-align: center;
+    overflow: hidden;
+    color: #474747;
+}
+.aboutus-line>div{
+    float: left;
+    overflow: hidden;
+}
+@media only screen and (min-width: 1024px) {
+    .header-bigimg{
+        height: 600px;
+        overflow: hidden;
+    }
+    .aboutus-title{
+        font-size: 46px;
+        margin: 25px 0 80px;
+    }
+    .aboutus-main{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .aboutus-tit2>legend,.aboutus-tit3>legend{
+        padding: 0 15px;
+    }
+    .aboutus-tit2,.aboutus-tit3{
+        font-size: 24px;
+        font-weight: 400;
+        width: 50%;
+        margin: 60px auto;
+    }
+    .aboutus-tit3{
+        margin: 70px auto 40px;
+    }
+    .aboutus-txt1{
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .aboutus-txt>.aboutus-txt1:last-child{
+        margin-bottom: 0;
+    }
+    .aboutus-one,.aboutus-two{
+        border: 1px solid #ddd;
+        padding: 18px 18px 26px;
+        overflow: hidden;
+    }
+    .aboutus-one-img{
+        float: left;
+        margin-right: 20px;
+        width: 22%;
+    }
+    .aboutus-two-img{
+        float: right;
+        margin-left: 20px;
+        width: 22%;
+    }
+    .aboutus-one-txt{
+        float: left;
+        width: 73%;
+        width: calc( 78% - 22px);
+    }
+    .aboutus-two-txt{
+        float: right;
+        width: 73%;
+        width: calc( 78% - 22px);
+    }
+    .aboutus-one-tit1,.aboutus-two-tit1{
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .aboutus-one-tit2,.aboutus-two-tit2{
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .aboutus-one-txt1,.aboutus-two-txt1{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .aboutus-two-tit1,.aboutus-two-tit2{
+        text-align: right;
+    }
+    .aboutus-line{
+        margin: 35px 0 25px;
+    }
+    .aboutus-line-left{
+        width: 35%;
+        width: calc( 50% - 90px);
+        height: 30px;
+        background: url("../images/aboutus_03.png") no-repeat left center;
+    }
+    .aboutus-line-txt{
+        font-size: 20px;
+        height: 30px;
+        line-height: 30px;
+        width: 180px;
+    }
+    .aboutus-line-right{
+        width: 35%;
+        width: calc( 50% - 90px);
+        height: 30px;
+        background: url("../images/aboutus_04.png") no-repeat right center;
+    }
+    .footer{
+        margin-top: 130px;
+    }
+}
+@media only screen and (max-width: 1023px) and (min-width: 768px){
+    .aboutus-title{
+        font-size: 40px;
+        margin: 30px 0 60px;
+    }
+    .aboutus-main{
+        width: 92%;
+        margin-left: 4%;
+    }
+    .aboutus-tit2>legend,.aboutus-tit3>legend{
+        padding: 0 12px;
+    }
+    .aboutus-tit2,.aboutus-tit3{
+        font-size: 22px;
+        font-weight: 400;
+        width: 50%;
+        margin: 40px auto;
+    }
+    .aboutus-tit3{
+        margin: 60px auto 35px;
+    }
+    .aboutus-txt1{
+        font-size: 15px;
+        line-height: 23px;
+        margin-bottom: 28px;
+    }
+    .aboutus-txt>.aboutus-txt1:last-child{
+        margin-bottom: 0;
+    }
+    .aboutus-one,.aboutus-two{
+        border: 1px solid #ddd;
+        padding: 16px 16px 24px;
+        overflow: hidden;
+    }
+    .aboutus-one-img{
+        float: left;
+        margin-right: 16px;
+    }
+    .aboutus-two-img{
+        float: right;
+        margin-left: 16px;
+    }
+    .aboutus-one-img,.aboutus-two-img{
+        width: 22%;
+        position: relative;
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        z-index: -1;
+    }
+    .aboutus-one-txt{
+        float: left;
+        width: 73%;
+        width: calc( 78% - 16px);
+    }
+    .aboutus-two-txt{
+        float: right;
+        width: 73%;
+        width: calc( 78% - 16px);
+    }
+    .aboutus-one-tit1,.aboutus-two-tit1{
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    .aboutus-one-tit2,.aboutus-two-tit2{
+        font-size: 13px;
+        margin-bottom: 12px;
+    }
+    .aboutus-one-txt1,.aboutus-two-txt1{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .aboutus-two-tit1,.aboutus-two-tit2{
+        text-align: right;
+    }
+    .aboutus-line{
+        margin: 35px 0 25px;
+    }
+    .aboutus-line-left{
+        width: 35%;
+        width: calc( 50% - 80px);
+        height: 26px;
+        background: url("../images/aboutus_03.png") no-repeat left center/auto 22px;
+    }
+    .aboutus-line-txt{
+        font-size: 18px;
+        height: 26px;
+        line-height: 26px;
+        width: 160px;
+    }
+    .aboutus-line-right{
+        width: 35%;
+        width: calc( 50% - 80px);
+        height: 26px;
+        background: url("../images/aboutus_04.png") no-repeat right center/auto 22px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .aboutus-title{
+        font-size: 28px;
+        margin: 30px 0 40px;
+    }
+    .aboutus-main{
+        width: 92%;
+        margin-left: 4%;
+    }
+    .aboutus-tit2>legend,.aboutus-tit3>legend{
+        padding: 0 8px;
+    }
+    .aboutus-tit2,.aboutus-tit3{
+        font-size: 18px;
+        font-weight: 400;
+        width: 50%;
+        margin: 25px auto;
+    }
+    .aboutus-tit3{
+        margin: 40px auto 25px;
+    }
+    .aboutus-txt1{
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 14px;
+    }
+    .aboutus-txt>.aboutus-txt1:last-child{
+        margin-bottom: 0;
+    }
+    .aboutus-one,.aboutus-two{
+        border: 1px solid #ddd;
+        padding: 12px 12px 20px;
+    }
+    .aboutus-one-img,.aboutus-two-img{
+        width: 50%;
+        display: block;
+        margin: 0 auto 10px;
+    }
+    .aboutus-one-tit1,.aboutus-two-tit1{
+        font-size: 13px;
+        margin-bottom: 4px;
+    }
+    .aboutus-one-tit2,.aboutus-two-tit2{
+        font-size: 13px;
+        margin-bottom: 6px;
+    }
+    .aboutus-one-txt1,.aboutus-two-txt1{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .aboutus-line{
+        margin: 35px 0 25px;
+    }
+    .aboutus-line-left{
+        width: 35%;
+        width: calc( 50% - 55px);
+        height: 20px;
+        background: url("../images/aboutus_03.png") no-repeat left center/auto 18px;
+    }
+    .aboutus-line-txt{
+        font-size: 14px;
+        height: 20px;
+        line-height: 20px;
+        width: 110px;
+    }
+    .aboutus-line-right{
+        width: 35%;
+        width: calc( 50% - 55px);
+        height: 20px;
+        background: url("../images/aboutus_04.png") no-repeat right center/auto 18px;
+    }
+    .footer{
+        margin-top: 60px;
+    }
+}

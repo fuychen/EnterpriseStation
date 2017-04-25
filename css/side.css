@@ -1,0 +1,386 @@
+
+.nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255,255,255,0.85);
+    z-index: 1;
+}
+.brand a{
+    color: #4e4e4c;
+}
+.brand .current_page{
+    color: #fc6552;
+}
+/*.logo>img{
+    vertical-align: top;
+}*/
+.company{
+    display: inline-block;
+    color: #636365;
+    margin: 30px 0 0 20px;
+}
+.header_img{
+    width: 100%;
+    display: block;
+}
+.header_side{
+    position: relative;
+    overflow: hidden;
+    max-height: 600px;
+}
+.side-head{
+    position: absolute;
+    color: #fff;
+}
+.wap-y2{display: none;}
+@media only screen and (min-width: 1024px){
+    
+    /*.logo>img{
+        height: 100px;
+        margin: 10px 0;
+    }*/
+    /*.nav-menu>a{
+        margin-left: 35px;
+        font-size: 18px;
+    }*/
+    .side-head{
+        width: 1024px;
+        left: 50%;
+        margin: 0 0 0 -512px;
+        top: 180px;
+    }
+    .side-head-titlle{
+        font-size: 28px;
+        margin-bottom: 50px;
+        line-height: 40px;
+    }
+    .side-head-txt{
+        font-size: 18px;
+        line-height: 26px;
+        font-weight: 300;
+    }
+    .side-one{
+        overflow: hidden;
+        width: 1024px;
+        margin: 150px auto;
+        text-align: left;
+    }
+    .side-one>div{
+        float: left;
+    }
+    .y-a{
+        width: 20%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .y-a-t{
+        font-size: 26px;
+        color: #a3a3a3;
+    }
+    .y-b{
+        width: 50%;
+    }
+    .y-b-txt{
+        color: #969696;
+        font-size: 18px;
+        overflow: hidden;
+    }
+    .y-b-txt>img{
+        float: left;
+        margin-top: 5px;
+    }
+    .y-b-txt>span{
+        float: left;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .y-c{
+        width: 30%;
+    }
+    .y-c>img{
+        width: 48%;
+        vertical-align: top;
+    }
+    .y-c-img1{
+        margin-right: 4%;
+        margin-bottom: 25px;
+    }
+    .s-b{
+        text-align: right;
+    }
+    .s-b-txt>span{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .s-b-txt>img,.s-b-txt>span{
+        float: right;
+    }
+    .s-c{
+        margin-top: 60px;
+    }
+    .s-a{
+        margin-top: 70px;
+    }
+}
+@media only screen and (min-width: 768px)and (max-width: 1024px){
+    .brand{
+        width: 100%;
+        overflow: hidden;
+    }
+    /*.nav-menu{
+        height: 100px;
+        line-height: 100px;
+    }*/
+    /*.logo>img{
+        height: 80px;
+        margin: 10px 0 10px 20px;
+    }*/
+    /*.logo{
+        float: left;
+    }*/
+    .company{
+        font-size: 12px;
+    }
+    /*.nav-menu{
+        float: right;
+        margin-right: 20px;
+        min-width: 390px;
+    }*/
+    /*.nav-menu>a{
+        margin-left: 4%;
+        font-size: 15px;
+    }*/
+    .side-head{
+        width: 80%;
+        left: 10%;
+        top: 100px;
+    }
+    .side-head-titlle{
+        font-size: 24px;
+        margin-bottom: 20px;
+        line-height: 30px;
+    }
+    .side-head-txt{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+    }
+    .side-one{
+        overflow: hidden;
+        width: 90%;
+        margin: 90px 5%;
+    }
+    .side-one>div{
+        float: left;
+    }
+    .y-a{
+        width: 30%;
+        text-align: center;
+        margin-top: 25px;
+    }
+    .y-a>img{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .y-a-t{
+        font-size: 21px;
+        color: #a3a3a3;
+    }
+    .y-b{
+        width: 70%;
+    }
+    .y-b-txt{
+        color: #969696;
+        font-size: 16px;
+        overflow: hidden;
+    }
+    .y-b-txt>img{
+        float: left;
+        margin-top: 6px;
+        width: 13px;
+    }
+    .y-b-txt>span{
+        float: left;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .y-c{
+        display: block;
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 45px;
+    }
+    .y-c>img{
+        width: 48.5%;
+        vertical-align: top;
+    }
+    .y-c-img1{
+        margin-right: 3%;
+        margin-bottom: 12px;
+    }
+    .s-b{
+        text-align: right;
+    }
+    .s-b-txt>span{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .s-b-txt>img,.s-b-txt>span{
+        float: right;
+    }
+    .s-c{
+        margin-top: 60px;
+    }
+    .s-a{
+        margin-top: 70px;
+    }
+    .wap-y1{
+        display: none;
+    }
+    .wap-y2{
+        display: block;
+    }
+}
+@media only screen and (max-width: 767px){
+    .brand{
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    /*.logo>img{
+        width: 50px;
+        height: auto;
+    }*/
+    /*.nav-menu{
+        min-width: 50px;
+        min-height: 50px;
+        margin-right: 10px;
+        background: url("../images/pz5.png") no-repeat right top;
+        text-align: right;
+        position: absolute;
+        top: 24px;
+        right: 6px;
+    }*/
+    /*.nav-menu>a{
+        font-size: 16px;
+        line-height: 30px;
+        display: none;
+    }*/
+    .company{
+        margin: 10px 0 0 20px;
+        text-align: left;
+        font-size: 12px;
+    }
+    .side-head{
+        width: 90%;
+        left: 8%;
+        top: 50%;
+    }
+    .side-head-titlle{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .side-head-txt{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 300;
+        display: none;
+    }
+    .side-one{
+        overflow: hidden;
+        width: 90%;
+        margin: 46px 5%;
+    }
+    .side-one>div{
+        float: left;
+    }
+    .y-a{
+        width: 30%;
+        text-align: center;
+        margin-top: 40px;
+    }
+    .y-a>img{
+        width: 60%;
+        margin-top: 20px;
+    }
+    .y-a-t{
+        font-size: 16px;
+        color: #a3a3a3;
+    }
+    .y-b{
+        width: 70%;
+    }
+    .y-b-txt{
+        color: #969696;
+        font-size: 13px;
+        overflow: hidden;
+    }
+    .y-b-txt>img{
+        float: left;
+        margin-top: 6px;
+        width: 10px;
+    }
+    .y-b-txt>span{
+        float: left;
+        width: 90%;
+        margin-left: 10px;
+    }
+    .y-c{
+        display: block;
+        width: 84%;
+        margin-left: 8%;
+        margin-top: 26px;
+    }
+    .y-c>img{
+        width: 48.5%;
+        vertical-align: top;
+    }
+    .y-c-img1{
+        margin-right: 3%;
+        margin-bottom: 12px;
+    }
+    .s-b{
+        text-align: right;
+    }
+    .s-b-txt>span{
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .s-b-txt>img,.s-b-txt>span{
+        float: right;
+    }
+    .s-c{
+        margin-top: 26px;
+    }
+    .s-a{
+        margin-top: 70px;
+    }
+    .wap-y1{
+        display: none;
+    }
+    .wap-y2{
+        display: block;
+    }
+}
+@media only screen and (max-width: 414px){
+    .company{
+        display: none;
+    }
+    /*.nav-menu{
+        top: 17px;
+    }*/
+    /*.logo>img{
+        width: 40px;
+        margin: 6px 0 8px -20px;
+    }*/
+}
+@media only screen and (max-width: 360px){
+    .side-one {
+        margin: 30px 5%;
+    }
+    .y-c{
+        margin-top: 15px;
+    }
+}
