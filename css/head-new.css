@@ -118,6 +118,10 @@ body {
         -webkit-text-size-adjust: 100%;
         text-align: left;
     }
+    .pz-name-zh{
+    	font-size: 14px;
+    	letter-spacing: 2px;
+    }
     .material-menu-wrapper > ul > li > a {
         margin-top: 25px;
         color: #74777b;
@@ -197,6 +201,10 @@ body {
         color: #636365;
         line-height: 18px;
         text-align: left;
+    }
+    .pz-name-zh{
+    	font-size: 13px;
+    	letter-spacing: 2px;
     }
     .logo > img {
         height: 62px;
