@@ -29,6 +29,7 @@
     }
     .safe-part-txts{
         width: 100%;
+        display: table;
     }
     .safe-part-1{
         width: 50%;
@@ -65,11 +66,6 @@
     }
     .footer{
         margin-top: 190px;
-    }
-}
-@media only screen and (min-width: 1080px) {
-    .safe-part-1{
-        width: 540px;
     }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px){

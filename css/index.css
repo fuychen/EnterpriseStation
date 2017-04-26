@@ -116,6 +116,7 @@ html{
         font-size: 20px;
         line-height: 50px;
         font-weight: 700;
+        color: #fff;
         /*text-indent:-10000px;*/
         /*background:url(../images/img1.png) no-repeat 0 -8px;*/
     }
@@ -451,6 +452,7 @@ html{
         height: auto;
         width: 100%;
         display: inline-block;
+        background-color: #fff;
     }
     .highlight-box{
         height: auto;
