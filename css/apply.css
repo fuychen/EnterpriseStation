@@ -1,0 +1,115 @@
+.apply-head-img{
+    width: 100%;
+    display: block;
+}
+.apply-tit{
+    color: #078e8c;
+    text-align: center;
+}
+.apply-tit2{
+    text-align: center;
+}
+.apply-tit2-1{
+    color: #c21c18;
+}
+.apply-tit2-2{
+    color: #6b6a6d;
+}
+.apply-tit3{
+    color: #7c797b;
+    text-align: center;
+}
+.apply-tit4{
+    color: #7e7e80;
+}
+@media only screen and (min-width: 1024px) {
+    .apply-head{
+        height: 600px;
+        overflow: hidden;
+    }
+    .apply-main{
+        width: 100%;
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    .apply-tit{
+        font-size: 40px;
+        margin-top: 60px;
+        margin-bottom: 15px;
+    }
+    .apply-tit2{
+        font-size: 20px;
+    }
+    .apply-tit3{
+        font-size: 20px;
+        margin: 30px 0 90px;
+    }
+    .apply-tit4{
+        font-size: 14px;
+        margin-bottom: 120px;
+    }
+    .cd-timeline-content>.cd-date{
+        color: #7a7a7a;
+        font-size: 22px;
+    }
+    .footer{
+        margin-top: 170px;
+    }
+}
+@media only screen and (max-width: 1023px) {
+    .apply-main{
+        width: 94%;
+        margin-left: 3%;
+    }
+    .apply-tit{
+        font-size: 30px;
+        margin-top: 50px;
+        margin-bottom: 12px;
+    }
+    .apply-tit2{
+        font-size: 18px;
+    }
+    .apply-tit3{
+        font-size: 18px;
+        margin: 20px 0 60px;
+    }
+    .apply-tit4{
+        font-size: 13px;
+        margin-bottom: 100px;
+    }
+    .cd-timeline-content>.cd-date{
+        color: #7a7a7a;
+        font-size: 18px;
+        padding: 10px 0;
+    }
+    .footer{
+        margin-top: 120px;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .apply-tit{
+        font-size: 20px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .apply-tit2{
+        font-size: 16px;
+    }
+    .apply-tit3{
+        font-size: 16px;
+        margin: 15px 0 45px;
+    }
+    .apply-tit4{
+        font-size: 12px;
+        margin-bottom: 80px;
+    }
+    .cd-timeline-content>.cd-date{
+        color: #7a7a7a;
+        font-size: 16px;
+        float: none;
+        padding: 6px 0;
+    }
+    .footer{
+        margin-top: 90px;
+    }
+}
