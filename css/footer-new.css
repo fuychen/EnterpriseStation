@@ -16,6 +16,9 @@ html{
 .venus-menu-li-a:hover{
     color: red
 }
+.links-right>a{
+        text-align: center;
+}
 @media only screen and (min-width: 1024px){
     .footer{
         background-color: #333;
@@ -35,28 +38,32 @@ html{
         font-size: 14px;
         color: #9f9f9f;
         line-height: 26px;
-        margin-top: 50px;
+        margin-top: 61px;
     }
     .links{
         max-width: 1024px;
         margin: 0 auto;
-        height: 88px;
         border-top: 2px solid #999;
         border-bottom: 2px solid #999;
     }
-    .links-right{
+    .links-right>a{
+        display: inline-block;
         font-size: 14px;
         color: #9f9f9f;
-        margin-top: 30px;
+        margin: 30px 30px 30px 0;
+    }
+    .links-right>a>img{
+        width: 40px;
+        height: 40px;
     }
     .links-left{
         color: #9f9f9f;
         font-size: 14px;
         width: 180px;
-        margin-top: 26px;
         text-align: center;
         line-height: 24px;
     }
+    
 }
 @media only screen and (min-width: 768px)and (max-width: 1024px){
     .footer{
